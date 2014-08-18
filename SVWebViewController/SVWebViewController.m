@@ -185,8 +185,6 @@
                           self.backBarButtonItem,
                           fixedSpace,
                           self.forwardBarButtonItem,
-                          fixedSpace,
-                          self.actionBarButtonItem,
                           nil];
         
         UIToolbar *toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, toolbarWidth, 44.0f)];
@@ -204,9 +202,6 @@
                           self.forwardBarButtonItem,
                           flexibleSpace,
                           refreshStopBarButtonItem,
-                          flexibleSpace,
-                          self.actionBarButtonItem,
-                          fixedSpace,
                           nil];
         
         self.navigationController.toolbar.barStyle = self.navigationController.navigationBar.barStyle;
